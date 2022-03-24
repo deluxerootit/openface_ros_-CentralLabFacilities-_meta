@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>openface2_ros</name>
+  <version>1.0.0</version>
+  <description>metapkg</description>
+
+  <maintainer email="dito.cahya@bristol.ac.uk">Dito Cahya</maintainer>
+  <license>Apache 2</license>
+
+  <author email="dito.cahya@bristol.ac.uk">Dito Cahya</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>openface2_bridge</exec_depend>
+  <exec_depend>openface2_ros_msgs</exec_depend>
+
+  <export>
+    <metapackage />
+  </export>
+</package>

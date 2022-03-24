@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>openface2_ros_msgs</name>
+  <version>1.0.0</version>
+  <description>The openface2_ros messages package</description>
+
+  <maintainer email="dito.cahya@bristol.ac.uk">Dito Cahya</maintainer>
+  <license>Apache 2</license>
+
+  <author email="dito.cahya@bristol.ac.uk">Dito Cahya</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+
+  <exec_depend>message_runtime</exec_depend>
+
+</package>

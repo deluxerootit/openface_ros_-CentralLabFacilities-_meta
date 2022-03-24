@@ -1,0 +1,11 @@
+<launch>
+
+  <arg name="image_topic" default="/usb_cam/image_raw" />
+  <arg name="publish_viz" default="true" />
+
+  <node pkg="openface2_bridge" name="openface2_bridge" type="openface2_bridge" output="screen">
+      <param name="image_topic" value="$(arg image_topic)" type="str"/>
+      <param name="publish_viz" value="$(arg publish_viz)" type="bool"/>
+  </node>
+
+</launch>

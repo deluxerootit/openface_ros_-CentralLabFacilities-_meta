@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>openface2_bridge</name>
+  <version>1.0.0</version>
+  <description>The openface2_ros package</description>
+
+  <maintainer email="dito.cahya@bristol.ac.uk">Dito Cahya</maintainer>
+  <license>Apache 2</license>
+
+  <author email="dito.cahya@bristol.ac.uk">Dito Cahya</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>image_transport</depend>
+  <depend>cv_bridge</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>package</depend>
+  <depend>openface2_ros_msgs</depend>
+
+
+</package>
