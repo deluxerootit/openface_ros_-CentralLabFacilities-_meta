@@ -18,7 +18,7 @@ catkin_package(
 )
 
 find_package(Boost 1.5.9 REQUIRED COMPONENTS filesystem system)
-find_package(OpenCV 3 REQUIRED)
+find_package(OpenCV 4 REQUIRED)
 find_package(dlib REQUIRED)
 
 message("dlib_DIR:  ${dlib_DIR}")
